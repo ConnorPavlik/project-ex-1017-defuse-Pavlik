@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="ASCII"?>
+<fragment:ModelFragments xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/descriptor/basic" xmlns:commands="http://www.eclipse.org/ui/2010/UIModel/application/commands" xmlns:fragment="http://www.eclipse.org/ui/2010/UIModel/fragment" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_RrIzUPFCEemP5shpoGE8XQ">
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_UcW9wPFCEemP5shpoGE8XQ" featurename="commands" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="commands:Command" xmi:id="_XTBB0PFCEemP5shpoGE8XQ" elementId="project-ex-1017-defuse-pavlik.command.simplebinding" commandName="Simple Binding"/>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_lVVtEPFCEemP5shpoGE8XQ" featurename="handlers" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="commands:Handler" xmi:id="_5he2QPFCEemP5shpoGE8XQ" elementId="project-ex-1017-defuse-pavlik.handler.0" contributionURI="bundleclass://project-ex-1017-defuse-Pavlik/handler.DefUseHandler" command="_XTBB0PFCEemP5shpoGE8XQ"/>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_sgK8EPFCEemP5shpoGE8XQ" featurename="descriptors" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="basic:PartDescriptor" xmi:id="_uYoSgPFCEemP5shpoGE8XQ" elementId="project-ex-1017-defuse-pavlik.partdescriptor.simpleviewdefusepavlik" label="Simple View Def Use Pavlik" iconURI="platform:/plugin/project-ex-1017-defuse-Pavlik/icons/sample.png" contributionURI="bundleclass://project-ex-1017-defuse-Pavlik/view.SimpleViewer"/>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_9AcQcPFCEemP5shpoGE8XQ" featurename="menuContributions" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="menu:MenuContribution" xmi:id="_-1UucPFCEemP5shpoGE8XQ" elementId="project-ex-1017-defuse-pavlik.menucontribution.0" positionInParent="after=window" parentId="org.eclipse.ui.main.menu">
+      <children xsi:type="menu:Menu" xmi:id="_BMy8IPFDEemP5shpoGE8XQ" elementId="project-ex-1017-defuse-pavlik.menu.mainmenupavlik" label="Main Menu Pavlik">
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_DO-2UPFDEemP5shpoGE8XQ" elementId="project-ex-1017-defuse-pavlik.handledmenuitem.def-useanalysispavlik" label="Def-Use Analysis Pavlik" command="_XTBB0PFCEemP5shpoGE8XQ"/>
+      </children>
+    </elements>
+  </fragments>
+</fragment:ModelFragments>
